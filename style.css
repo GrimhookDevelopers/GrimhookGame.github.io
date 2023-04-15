@@ -52,7 +52,7 @@ nav {
 
 nav ul {
   margin: 0;
-  padding: 0;
+  padding: 10;
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -72,7 +72,7 @@ nav a{
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
   font-weight: bold;
-  width: 100%;
+  width: 75%;
 }
 
 nav a:hover {
@@ -104,4 +104,12 @@ nav a:hover {
   to {
     opacity: 1;
   }
+}
+
+.description {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #f2f2f2;
+  font-size: 20px;
+  text-align: center;
+  padding: 50px 
 }
