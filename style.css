@@ -43,3 +43,65 @@ header {
 header img{
   max-width: 50%;
 }
+
+nav {
+  background-color: #f2f2f2;
+  overflow: hidden;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+nav li {
+  flex-grow: 1;
+  text-align: center;
+}
+
+nav a{
+  display: block;
+  color: #8a0f0f;
+  padding: 16px;
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+}
+
+nav a:hover {
+  background-color: #ff5555;
+  color: #f2f2f2;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.fade-in:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.fade-in:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.fade-in:nth-child(3) {
+  animation-delay: 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
