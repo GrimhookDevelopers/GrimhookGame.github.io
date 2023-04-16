@@ -117,3 +117,43 @@ nav a:hover {
 .itch-game {
   text-align: center;
 }
+
+.small-image {
+  width: 200px;
+  height: auto;
+}
+
+.med-image {
+  width: 400px;
+  height: auto;
+}
+
+.large-image {
+  width: 600px;
+  height: auto;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.video-container iframe {
+  margin: auto;
+}
