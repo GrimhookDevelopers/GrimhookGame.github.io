@@ -1,4 +1,4 @@
 ---
-permalink: /tryston/
-redirect_to: https://trystonminsquero.com
+permalink: /jared/
+redirect_to: https://jaredellis.myportfolio.com/
 ---
