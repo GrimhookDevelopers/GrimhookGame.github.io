@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>{% if page.title %}{{ page.title }}{% else %}Grimhook{% endif %}</title>
+
+  {% include meta.html %}
+
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/style.css" />
+  <link rel="icon" href="{{ site.url }}/content/website-icon.png">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="{{ site.url }}/">Home</a></li>
+      <li><a href="{{ site.url }}/about">About</a></li>
+      <li><a href="{{ site.url }}/apply">Apply</a></li>
+      <li><a href="{{ site.url }}/game">Game</a></li>
+    </ul>
+  </nav>
+
+  <div id="main" role="main" class="container">
+    {{ content }}
+  </div>
+</body>
+
+</html>
