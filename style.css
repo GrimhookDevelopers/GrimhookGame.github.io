@@ -1,5 +1,11 @@
 body {
   background-color: #252525;
+
+  background: url('/images/AnchorTileable.png') repeat;
+  margin: 0;
+  padding: 0;
+  animation: slide 10s linear infinite;
+  background-attachment: fixed;
 }
 
 .button {
