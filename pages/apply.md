@@ -5,9 +5,9 @@ permalink: /apply/
 ---
 
 <section class="description">
-    Below are the open positions we are looking to get filled by a talented and dedicated new team member.
+    We are not actively looking for new members, but feel free to apply to our general application
     <br><br>
-    Click the buttons below and fill out the form to apply!
+    If we start looking again, we'll be sure to reach out!
 </section>  
 
 <div class="container">
