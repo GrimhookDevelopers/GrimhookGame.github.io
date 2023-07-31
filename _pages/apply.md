@@ -1,6 +1,5 @@
 ---
-layout: page
-title: Apply to Grimhook Dev Team
+title: Apply
 permalink: /apply/
 ---
 

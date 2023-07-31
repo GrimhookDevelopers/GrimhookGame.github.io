@@ -1,0 +1,117 @@
+@import 'colors';
+
+// --- background --- //
+body
+{
+    background-color: $clr-background;
+    background: url($url-background-img) repeat;
+
+    animation: slide 10s linear infinite;
+    background-attachment: fixed;
+}
+
+@keyframes slide
+{
+    0% {
+        background-position-x: 0;
+        background-position-y: 0;
+    }
+    100% {
+        background-position-x: 0px;
+        background-position-y: 200px;
+    }
+}
+
+
+// --- default elements --- //
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    color: $clr-text-primary;
+}
+
+main > *:not(.ignore-auto-responsiveness)
+{
+    max-width: 975px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+p, h1, h2, h3, h4, h5, h6
+{
+    line-height: 2rem;
+    margin-bottom: 1rem
+}
+
+h1
+{
+    font-size: 2rem;
+}
+
+h2
+{
+    font-size: 1.75rem;
+}
+
+h3
+{
+    font-size: 1.5rem;
+}
+
+h4, h5, h6
+{
+    font-size: 1.4rem;
+}
+
+p
+{
+    font-size: 1.2rem;
+}
+
+a.button
+{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+
+    padding: .625rem 1.25rem;
+    border-radius: .375rem;
+
+    color: $clr-text-primary !important;
+    background-color: $clr-text-secondary;
+    border: 1px solid $clr-text-secondary;
+
+    transition: .1s ease-out background-color;
+}
+
+a.button:hover
+{
+    background-color: change-color($color: $clr-text-secondary, $alpha: 0);
+    background-size: 0% 2px;
+}
+
+a
+{
+    color: $clr-link;
+    text-decoration: none;
+
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size cubic-bezier(0,.5,0,1) 0.3s;
+}
+
+a:hover
+{
+    background-size: 100% 2px;
+}
+
+a:hover.no-underline
+{
+    background-size: 0% 2px;
+}

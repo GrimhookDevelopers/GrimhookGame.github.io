@@ -1,0 +1,6 @@
+<nav class="flex flex-row">
+    <img src="{{ site.url_logo_256}}" class="mr-auto my-auto" style="height: 35px;">
+    {% for entry in site.data.navigation %}
+        <a href="{{ entry.url }}" class="text-center p-4 font-lg font-bold"> {{ entry.name }} </a>
+    {% endfor %}
+</nav>

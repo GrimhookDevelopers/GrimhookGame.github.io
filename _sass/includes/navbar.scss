@@ -1,0 +1,21 @@
+@import 'colors';
+
+nav
+{
+    z-index: 5;
+    position: fixed;
+    width: 100%;
+    padding: 0 2rem;
+    background-color: $clr-navbar;
+    
+    a
+    {
+        text-decoration: none;
+        color: $clr-text-primary;
+    }
+
+    a.active
+    {
+        color: $clr-text-secondary;
+    }
+}
