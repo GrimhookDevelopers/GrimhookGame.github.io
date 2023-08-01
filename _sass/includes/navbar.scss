@@ -4,8 +4,7 @@ nav
 {
     z-index: 5;
     position: fixed;
-    width: 100%;
-    padding: 0 2rem;
+    width: 100vw;
     background-color: $clr-navbar;
     
     a
@@ -18,4 +17,93 @@ nav
     {
         color: $clr-text-secondary;
     }
+    
+    img
+    {
+        height: 2.5rem;
+    }
+    
+    @media (min-width: 992px)
+    {
+        .links
+        {
+            max-height: fit-content !important;
+        }
+    }
+
+}
+
+
+// --- Nav Burger --- //
+button.hamburger
+{
+    width: 1.75rem;
+    height: 1.75rem;
+    padding: 0;
+    margin-bottom: 0;
+    background-color: transparent;
+    transition: filter .2s;
+}
+
+button.hamburger:focus
+{
+    outline: none;
+    box-shadow: none;
+}
+
+button.hamburger:active
+{
+    transform: translateY(0);
+}
+
+.hamburger-inner::before, .hamburger-inner, .hamburger-inner::after
+{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: $clr-text-primary;
+    content: "";
+    transition: all .2s;
+}
+
+button.hamburger:hover
+{
+    filter: brightness(60%);
+}
+
+.hamburger-inner
+{
+    position: relative;
+    top: -.5rem;
+}
+
+.hamburger-inner::before
+{
+    position: absolute;
+    top: .5rem;
+}
+
+.hamburger-inner::after
+{
+    position: absolute;
+    top: 1rem;
+}
+
+button.hamburger.active > .hamburger-inner::before
+{
+    transform: translateX(-50%) rotate(-45deg);
+    top: .875rem;
+    opacity: 0;
+}
+
+button.hamburger.active > .hamburger-inner
+{
+    transform: rotate(45deg);
+    top: 0;
+}
+
+button.hamburger.active > .hamburger-inner::after
+{
+    transform: rotate(-90deg);
+    top: 0;
 }

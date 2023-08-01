@@ -5,7 +5,7 @@
 {
     max-width: none;
     height: 100vh;
-    margin: 0;
+    margin: 0 0 3rem;
     padding: 0;
 
     figure
@@ -32,15 +32,15 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 0 0 2.5rem 2rem;
+    padding: 2.5rem 2rem;
 
     display: flex;
     flex-direction: column;
     justify-content: end;
 
-    img
+    #download-banner
     {
-        height: 8rem;
+        max-height: 8rem;
         filter: drop-shadow(1px 3px 10px black);
     }
 
@@ -49,11 +49,6 @@
         margin: 1rem 0 0 2rem;
         box-shadow: 1px 3px 5px #0000009c;
     }
-}
-
-#community
-{
-    padding-top: 4.5rem;
 }
 
 #community-socials
@@ -70,23 +65,31 @@
     }
 }
 
-#team
+// offset anchor div to be under the navbar
+// useful for auto-scrolling
+.anchor
 {
-    padding-top: 4.5rem;
+    position: relative;
+    top: -5.5rem;
+    visibility: none;
 }
 
 #team-gallery
 {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     margin: 2rem 0 6rem;
-    grid-gap: 1rem 2.5rem;
-
+    grid-gap: 4rem 2.5rem;
+    
     .team-member
     {
+        display: flex;
+        flex-direction: column;
+        
         figure
         {
-            aspect-ratio: 3 / 4;
+            aspect-ratio: 4 / 5;
+            margin-bottom: .7rem;
         }
         
         img
@@ -94,6 +97,11 @@
             border-radius: .15rem;
             object-fit: cover;
             height: 100%;
+        }
+
+        > div
+        {
+            flex-grow: 1;
         }
 
         h1
@@ -115,11 +123,20 @@
             text-align: center;
             font-size: 1rem;
         }
+
+        a
+        {
+            margin-top: .8rem;
+        }
     }
 
-    .team-member:link, .team-member:visited
+    @media (min-width: 475px)
     {
-        color: inherit;
-        text-decoration: none;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 750px)
+    {
+        grid-template-columns: repeat(3, 1fr);
     }
 }

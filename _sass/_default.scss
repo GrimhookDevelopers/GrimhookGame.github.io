@@ -7,7 +7,7 @@ body
     background: url($url-background-img) repeat;
 
     animation: slide 10s linear infinite;
-    background-attachment: fixed;
+    background-attachment: local;
 }
 
 @keyframes slide
@@ -70,6 +70,11 @@ h4, h5, h6
 p
 {
     font-size: 1.2rem;
+}
+
+button
+{
+    border: none;
 }
 
 a.button

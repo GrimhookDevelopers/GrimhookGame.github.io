@@ -1,11 +1,24 @@
 <div class="{{include.class}}" id="{{include.id}}">
     {% for member in site.data.team %}
-        <a class="team-member {{include.member-class}} no-underline" target="_blank" {% if member.link %} href="{{ member.link }}" {% endif %}>
+        <div class="team-member {{include.member-class}}">
             {% assign member-portrait = "/assets/images/team/" | append: member.portrait %}
             {% assign member-alt = "Portrait of " | append: member.name %}
             {% include media.html file=member-portrait alt=member-alt %}
-            <h1> {{ member.name }} </h1>
-            <h2> {{ member.role }} </h2>
-        </a>
+
+            <div class="flex flex-column justify-between">
+                <div>
+                    <h1> {{ member.name }} </h1>
+                    <h2> {{ member.role }} </h2>
+                </div>
+            
+                {% if member.link %}
+                    <a href="{{ member.link }}" target="_blank" class="button">
+                        {{ member.link-name }}
+                    </a>
+                {% else %}
+                    <div></div>
+                {% endif %}
+            </div>
+        </div>
     {% endfor %}
 </div>

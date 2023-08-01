@@ -1,6 +1,25 @@
-<nav class="flex flex-row">
-    <img src="{{ site.url_logo_256}}" class="mr-auto my-auto" style="height: 35px;">
-    {% for entry in site.data.navigation %}
-        <a href="{{ entry.url }}" class="text-center p-4 font-lg font-bold"> {{ entry.name }} </a>
-    {% endfor %}
+<nav class="flex flex-column lg:flex-row items-center px-6 md:px-8 py-3 md:py-4">
+    <div class="flex flex-row items-center lg:mr-auto w-full lg:w-auto">
+        <!-- logo -->
+        <img src="{{ site.url_logo_256}}" class="mr-auto">
+        
+        <!-- Burger Navigation (for mobile) -->
+        <button type="button" id="nav-burger" class="hamburger lg:display-none" aria-label="Main Navigation Burger">
+            <span class="hamburger-inner"></span>
+        </button>
+    </div>
+
+    <!-- {% for entry in site.data.navigation %}
+        <a href="{{ entry.url }}" class="text-center"> {{ entry.name }} </a>
+    {% endfor %} -->
+
+    <!-- links -->
+    <div class="links flex flex-column lg:flex-row w-full lg:w-auto overflow-hidden stateful" for="nav-burger" speed="450">
+        <div class="mt-4"></div>
+        {% assign i = 0 %}
+        {% for item in site.data.navigation %}
+            <a class="w-full h-full py-2 lg:px-4 lg:py-0 font-xl lg:font-lg font-bold no-underline auto-close" href="{{ item.url }}"> {{ item.name }} </a>
+            {% assign i = i | plus: 1 %}
+        {% endfor %}
+    </div>
 </nav>
