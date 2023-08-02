@@ -29,12 +29,14 @@ layout: compress
     <script src="https://kit.fontawesome.com/fb3d6d8900.js" crossorigin="anonymous"></script>
 
     <!-- js -->
-    <script src="/assets/js/burger.js"></script>
+    <script defer src="/assets/js/burger.js"></script>
+    <script src="/assets/js/nav.js"></script>
+    <script src="/assets/js/platform.js"></script>
 
     {% include analytics.html %}
   </head>
 
-  <body>
+  <body id="Top">
     {% include navbar.html %}
 
     <main {% if page.center-content %} class="text-center flex flex-column align-items-center" {% endif %}>

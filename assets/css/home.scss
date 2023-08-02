@@ -46,8 +46,13 @@
 
     a
     {
-        margin: 1rem 0 0 2rem;
         box-shadow: 1px 3px 5px #0000009c;
+    }
+
+    a.steam
+    {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
 

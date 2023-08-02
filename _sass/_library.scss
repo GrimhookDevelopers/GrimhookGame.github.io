@@ -19,3 +19,16 @@
     background-color: change-color($color: $clr-windows, $alpha: 0);
     border-color: $clr-windows;
 }
+
+.download.steam
+{
+    color: $clr-text-primary;
+    background-color: $clr-steam;
+    border-color: $clr-steam;
+}
+
+.download.steam:hover
+{
+    background-color: change-color($color: $clr-steam, $alpha: 0);
+    border-color: $clr-steam;
+}

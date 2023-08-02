@@ -1,4 +1,4 @@
-if(window.addEventListener)
+if (window.addEventListener)
 {
     window.addEventListener('load', burger);
 }

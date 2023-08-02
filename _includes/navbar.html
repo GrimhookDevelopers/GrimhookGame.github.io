@@ -9,12 +9,8 @@
         </button>
     </div>
 
-    <!-- {% for entry in site.data.navigation %}
-        <a href="{{ entry.url }}" class="text-center"> {{ entry.name }} </a>
-    {% endfor %} -->
-
     <!-- links -->
-    <div class="links flex flex-column lg:flex-row w-full lg:w-auto overflow-hidden stateful" for="nav-burger" speed="450">
+    <div class="links flex flex-column lg:flex-row w-full lg:w-auto overflow-hidden stateful" for="nav-burger" speed="450" style="max-height: 0px;">
         <div class="mt-4"></div>
         {% assign i = 0 %}
         {% for item in site.data.navigation %}

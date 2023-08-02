@@ -8,12 +8,14 @@ exclude-title-in-meta: true
 <div id="splash">
     <figure>
         <video playsinline autoplay muted loop> 
-            <source src="/assets/videos/gameplay-short.mp4">
+            <source src="/assets/videos/gameplay-short.mp4" type="video/mp4">
+            <source src="/assets/videos/gameplay-short.webm" type="video/webm">
         </video>
     </figure>
     <div id="download" class="ignore-auto-responsiveness">
         <img src="{{ site.url_logo_1024 }}" id="download-banner" alt="Grimhook Logo">
-        <a class="button download windows font-2xl w-fit mx-auto mt-4" href="{{site.demo_download_windows}}" download> <i class="fa-brands fa-windows my-auto mr-2"></i> Download The Demo </a>
+        <a class="button download windows font-2xl w-fit mx-auto mt-4 hide-on-not-windows" href="{{site.demo_download_windows}}" download> <i class="fa-brands fa-windows my-auto mr-2"></i> Download The Demo </a>
+        <a class="button download steam font-2xl w-fit mx-auto mt-4 hide-on-windows" href="{{site.download_steam}}" download> <i class="fa-brands fa-steam my-auto mr-2"></i> Steam </a>
     </div>
 </div>
 

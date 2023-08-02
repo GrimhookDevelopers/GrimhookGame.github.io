@@ -16,6 +16,7 @@ url_logo_2048: /assets/images/banner-2048.png
 
 demo_link: https://github.com/GrimhookGame/GrimhookGame.github.io/releases/download/0.1.0/Grimhook.zip
 demo_download_windows: https://github.com/GrimhookGame/GrimhookGame.github.io/releases/download/0.1.0/Grimhook.zip
+demo_steam: '#'
 
 # build settings
 markdown: kramdown
