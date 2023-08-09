@@ -1,36 +1,71 @@
-- name: Phu Le
-  role: Daddy
-  portrait: phu-le.gif
-  link: https://http.cat/images/100.jpg
+# Used in _includes/team.html component
+
+# - name:       The member's name
+#   role:       The member's role
+#   portrait:   name of the member portrait file (do not include extension)
+#   link:       (optional) Link to social media page
+#   link-name:  Display name for link
+
+- name: Tryston Minsquero
+  role: Programmer	
+  portrait: Tryston_Minsquero_2
+- name: Jared Ellis
+  role: Programer	
+  portrait: Jared_Ellis
+  link: https://www.linkedin.com/in/jaredbellis/
   link-name: LinkedIn
+- name: Brandon Coffey
+  role: Programmer
+  portrait: Brandon_Coffey
+  link: https://brandoncoffey.com/
+  link-name: Website
+- name: Nick Maclean
+  role: Webmaster
+  portrait: Nick_Maclean
+  link: nicolasmaclean.com
+  link-name: Website
+- name: Phú Lê
+  role: 3D Artist	
+  portrait: Phu_Le
+- name: Ben Cressman
+  role: 3D Artist	
+  portrait: Benjamin_Cressman
+- name: Michelle Liu
+  role: 3D Artist	
+  portrait: Michelle_Liu
+- name: Michael Benard
+  role: 3D Artist	
+  portrait: Michael_Benard
+- name: Saamir Ahmed
+  role: 3D Artist & Animator
+  portrait: Saamir_Ahmed
+  link: https://saamiraahmed.wixsite.com/saamir
+  link-name: Website
+- name: Ross Quigley
+  role: 2D Arist	
+  portrait: 
+- name: Aliya Lee
+  role: 2D Arist	
+  portrait: Aliya_Lee
 - name: Ian Percy
-  role: The Master of Unreal 6.2
-  portrait: ian-percy.jpg
-  link: https://http.cat/images/100.jpg
-  link-name: LinkedIn
-- name: Aliya Lee?
-  role: :)
-  portrait: aliya-lee.jpg
-  link: https://http.cat/images/100.jpg
-  link-name: LinkedIn
+  role: Level & Game Designer	
+  portrait: Ian_Percy
 - name: Michael Cabrera
-  role: A Pretty Cool Guy
-  portrait: michael-cabrera.jpg
-- name: Phu Le
-  role: Daddy
-  portrait: phu-le.gif
-- name: Ian Percy
-  role: The Master of Unreal 6.2
-  link: https://http.cat/images/100.jpg
+  role: Narrative	
+  portrait: Michael_Cabrera
+- name: Calvin Steponaitis
+  role: Producer	
+  portrait: Calvin_Steponaitis
+  link: https://www.linkedin.com/in/calvin-s-6866981bb/ 
   link-name: LinkedIn
-  portrait: ian-percy.jpg
-- name: Aliya Lee?
-  role: :)
-  portrait: aliya-lee.jpg
-  link: https://http.cat/images/100.jpg
-  link-name: LinkedIn
-- name: Michael Cabrera
-  role: A Pretty Cool Guy
-  portrait: michael-cabrera.jpg
-  link: https://http.cat/images/100.jpg
-  link-name: LinkedIn
+- name: Zack Herr
+  role: Composer	
+  portrait: 
+- name: Conor Ellis
+  role: SFX	
+  portrait: 
+- name: Kem Echezona
+  role: SFX	
+  portrait: Kem_Echezona
+  link: https://kemechezona.wixsite.com/portfolio
+  link-name: Website

@@ -37,7 +37,8 @@ body
 main > *:not(.ignore-auto-responsiveness)
 {
     max-width: 975px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0 2rem;
 }
 
@@ -95,7 +96,7 @@ a.button
 
 a.button:hover
 {
-    background-color: change-color($color: $clr-text-secondary, $alpha: 0);
+    background-color: lighten($clr-text-secondary, 5%);
     background-size: 0% 2px;
 }
 

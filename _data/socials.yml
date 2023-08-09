@@ -1,3 +1,9 @@
+# Used in _includes/socials.html component
+
+# - name: Display name for social account.
+#   icon: HTML class name for the font-awesome icon
+#   url: Link to social media page
+
 - name: Discord
   icon: fa-brands fa-discord
   url: /discord/

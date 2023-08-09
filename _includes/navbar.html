@@ -14,7 +14,7 @@
         <div class="mt-4"></div>
         {% assign i = 0 %}
         {% for item in site.data.navigation %}
-            <a class="w-full h-full py-2 lg:px-4 lg:py-0 font-xl lg:font-lg font-bold no-underline auto-close" href="{{ item.url }}"> {{ item.name }} </a>
+            <a class="w-full h-full py-2 lg:mx-3 lg:px-1 lg:py-1 font-2xl lg:font-lg font-bold auto-close" href="{{ item.url }}"> {{ item.name }} </a>
             {% assign i = i | plus: 1 %}
         {% endfor %}
     </div>

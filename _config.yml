@@ -29,6 +29,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - optimize_portraits.py
 
 sass:
   style: compressed
