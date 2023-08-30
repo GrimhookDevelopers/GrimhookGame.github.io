@@ -5,8 +5,6 @@
 
 - name: Download
   url: /#Top
-- name: About
-  url: /#about
 - name: Team
   url: /#team
 - name: Community

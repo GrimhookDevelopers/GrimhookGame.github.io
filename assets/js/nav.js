@@ -22,6 +22,7 @@ function setupAutoHighlight()
     }
 
     // make sure the headers are sorted
+    console.log(anchors)
     anchors.sort(function(a, b)
     {
         return b.offsetTop - a.offsetTop;
