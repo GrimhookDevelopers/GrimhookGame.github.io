@@ -1,0 +1,19 @@
+<div class="{{include.class}}" id="{{include.id}}">
+    {% for member in site.data.team %}
+        <div class="team-member {{include.member-class}}">
+            <figure class="flex flex-column h-full">
+                <img src="/assets/images/team/{{ member.portrait }}.png" alt="Portrait of {{ member.name }}">
+                <h1> {{ member.name }} </h1>
+                <h2> {{ member.role }} </h2>
+            </figure>
+
+            {% if member.link %}
+                <a href="{{ member.link }}" target="_blank" class="button">
+                    {{ member.link-name }}
+                </a>
+            {% else %}
+                <div></div>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>

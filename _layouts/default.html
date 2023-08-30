@@ -1,28 +1,48 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title> Grimhook {% unless page.exclude-title-in-meta %}| {{ page.title }} {% endunless %}</title>
 
-<head>
-  <title>{% if page.title %}{{ page.title }}{% else %}Grimhook{% endif %}</title>
+    <!-- meta data -->
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 
-  {% include meta.html %}
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="twitter:title" content="{{ page.title }}" />
 
-  <link rel="stylesheet" type="text/css" href="{{ site.url }}/style.css" />
-  <link rel="icon" href="{{ site.url }}/content/website-icon.png">
-</head>
+    <meta name="author" content="{{ site.name }}" />
+    <meta name="description" content="{{ page.description }}">
+    <meta property="og:description" content="{{ page.description }}" />
 
-<body>
-  <nav>
-    <ul>
-      <li><a href="{{ site.url }}/">Home</a></li>
-      <li><a href="{{ site.url }}/about">About</a></li>
-      <li><a href="{{ site.url }}/apply">Apply</a></li>
-      <!-- <li><a href="{{ site.url }}/game">Game</a></li> -->
-    </ul>
-  </nav>
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="{{site.url_css}}/style.css" />
+    {% if page.custom-css %}
+      <link rel="stylesheet" type="text/css" href="{{site.url_css}}/{{page.custom-css}}.css" />
+    {% endif %}
+    <link rel="icon" href="{{site.url_favicon}}">
+    <script src="https://kit.fontawesome.com/fb3d6d8900.js" crossorigin="anonymous"></script>
 
-  <div id="main" role="main" class="container">
-    {{ content }}
-  </div>
-</body>
+    <!-- js -->
+    <script defer src="/assets/js/burger.js"></script>
+    <script src="/assets/js/nav.js"></script>
+    <script src="/assets/js/platform.js"></script>
 
+    {% include analytics.html %}
+  </head>
+
+  <body id="Top">
+    {% include navbar.html %}
+
+    <main {% if page.center-content %} class="text-center flex flex-column align-items-center" {% endif %}>
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+  </body>
 </html>

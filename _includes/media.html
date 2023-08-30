@@ -1,0 +1,13 @@
+<figure class="{{ include.class }}">
+    {% if include.file contains ".mp4" %}
+    <video {{ include.attr }}>
+        <source src="{{ include.file }}">
+    </video>
+    {% else %}
+    <img src="{{ include.file }}" alt="{{ include.alt }}" {{ include.attr }}/>
+    {% endif%}
+    
+    {% if include.caption %}
+    <figcaption> {{ include.alt }} </figcaption>
+    {% endif %}
+</figure>

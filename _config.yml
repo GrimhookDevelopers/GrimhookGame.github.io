@@ -1,19 +1,46 @@
-#
-# Config for Site
-#
 # Run with 'bundle exec jekyll serve'
-#
 
 # Name and Description of Site
 title: Grimhook
 description: Grimhook is a first-person action platformer about a nautical warrior facing down an army of robots. Use your complex and unconventional movement abilities to traverse through a sunken city; grapple, bounce, and dash your way through hoards of automata on your way to the city's peak.
 url: https://grimhook.com
+company: IDK, Inc.
 
-# Plugins
+url_favicon: /assets/images/favicon.ico
+url_images: /assets/images
+url_videos: /assets/videos
+url_css: /assets/css
+url_logo_256: /assets/images/banner-256.png
+url_logo_1024: /assets/images/banner-1024.png
+url_logo_2048: /assets/images/banner-2048.png
+
+demo_link: https://github.com/GrimhookGame/GrimhookGame.github.io/releases/download/0.1.0/Grimhook.zip
+demo_download_windows: https://github.com/GrimhookGame/GrimhookGame.github.io/releases/download/0.1.0/Grimhook.zip
+demo_steam: '#'
+
+# build settings
+markdown: kramdown
+highlighter: rouge
+
+include: ["_pages", "_redirects"]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - optimize_portraits.py
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
 plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
 
+
+# Compress.html (html minifier)
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
@@ -24,28 +51,9 @@ compress_html:
   profile: false
   startings: [html, head, body]
 
-permalink: /:title/
-
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
-
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
-
-include: ["_redirects"]
-
-# Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
+# Defaults Front Matter variables
+defaults:
+  - scope: # global scope
+      path: ""
+    values:
+      layout: default

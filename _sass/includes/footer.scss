@@ -1,0 +1,40 @@
+footer
+{
+    margin-top: 2rem;
+    padding: 3.5rem 2rem;
+
+    background-color: #171717;
+
+    img
+    {
+        height: 5rem;
+        margin: auto;
+    }
+
+    p
+    {
+        text-align: center;
+        font-size: 1rem;
+        margin: .5rem 0 0 0;
+    }
+    
+    a
+    {
+        text-align: center;
+        font-size: 1rem;
+        margin: .25rem 0 0 0;
+    }
+
+    .footer-socials
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+
+        .footer-social
+        {
+            font-size: 2rem;
+            margin: 0 .75rem;
+        }
+    }
+}
