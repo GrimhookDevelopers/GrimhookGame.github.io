@@ -46,7 +46,7 @@ exclude-title-in-meta: true
     <div class="flex flex-column md:flex-row my-12 justify-content-center">
         {% include socials.html id="community-socials" class="md:w-2/5 md:mr-6" link-class="button" %}
         <p class="md:w-2/5 pt-4 md:pt-0">
-            Follow our socials and join our <a href="/discord"> Discord</a> to talk directly to devs and other fans. You'll also be the first notified about pre-release access to the game and recieve sneak peeks!
+            Follow our socials and join our <a href="/discord"> Discord</a> to talk directly to devs and other fans. You'll also be the first notified about pre-release access to the game and receive sneak peeks!
         </p>
     </div>
 </div>
