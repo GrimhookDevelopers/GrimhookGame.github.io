@@ -87,10 +87,10 @@
   portrait: Calvin_Steponaitis
   link: https://www.linkedin.com/in/calvin-s-6866981bb/ 
   link-name: LinkedIn
-# - name: Zack Herr
-#   role: Composer
-#   portrait: 
-#   link: https://www.youtube.com/@Below_Cloud_Nine
+- name: Zack Herr
+  role: Composer
+  portrait: Zack_Herr
+  link: https://www.youtube.com/@Below_Cloud_Nine
   link-name: YouTube
 - name: Conor Ellis
   role: SFX	
