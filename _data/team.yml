@@ -12,14 +12,14 @@
   link: https://trystonminsquero.com
   link-name: Website
 - name: Jared Ellis
-  role: Programer	
+  role: Programmer	
   portrait: Jared_Ellis
   link: https://jaredellis.myportfolio.com/
   link-name: Website
 - name: Nick Maclean
   role: Webmaster
   portrait: Nick_Maclean
-  link: nicolasmaclean.com
+  link: https://nicolasmaclean.com
   link-name: Website
 - name: Phú Lê
   role: 3D Artist	
@@ -41,26 +41,28 @@
   portrait: Michael_Benard
   link: https://michaelbenard.artstation.com/
   link-name: Art Station
-# - name: Colin Philips
-#   role: 3D Artist & Sufacer	
-#   portrait: Colin_Philips
-#   link: https://www.artstation.com/cphillips4210
-#   link-name: Art Station
-# - name: Alana Godfredsen
-#   role: 3D Artist & Sufacer	
-#   portrait: Alana_Godfredsen
-#   link: https://www.artstation.com/alana_lynn
-#   link-name: Art Station
+- name: Colin Philips
+  role: 3D Artist & Sufacer	
+  portrait: Phillips_Colin
+  link: https://www.artstation.com/cphillips4210
+  link-name: Art Station
+- name: Alana Godfredsen
+  role: 3D Artist & Sufacer	
+  portrait: Alana_Godfredsen
+  link: https://www.artstation.com/alana_lynn
+  link-name: Art Station
 - name: Saamir Ahmed
   role: 3D Artist & Animator
   portrait: Saamir_Ahmed
   link: https://saamiraahmed.wixsite.com/saamir
   link-name: Website
 - name: Ross Quigley
-  role: 2D Arist	
+  role: 2D Artist	
   portrait: Ross_Quigley
+  link: https://www.artstation.com/rossquigley
+  link-name: Art Station
 - name: Aliya Lee
-  role: 2D Arist	
+  role: 2D Artist	
   portrait: Aliya_Lee
   link: https://aliyalee.myportfolio.com/
   link-name: Website
@@ -72,13 +74,48 @@
 - name: Rustin Mehrabani-Farsi
   role: Lighter
   portrait: Rustin_Farsi
+  link: https://rustinmfarsi.artstation.com/albums/3157649
+  link-name: Art Station
+- name: Kay Adam
+  role: UI and 3D Artist
+  portrait: Kay_Adam
+  link: https://kayadamportfolio.com
+  link-name: Portfolio
+- name: Chengheng Liang
+  role: Level Artist
+  portrait: Chengheng_Liang
+  link: https://www.artstation.com/chenghengliang1
+  link-name: Art Station
+- name: Lefan Zhang
+  role: 3D Artist
+  portrait: Lefan_Zhang
+  link: https://www.artstation.com/lefanzhang
+  link-name: Art Station
+- name: Brennan Black
+  role: 3D Artist
+  portrait: Brennan_Black
+  link: https://www.artstation.com/btblack
+  link-name: Art Station
+- name: Emily Willingham
+  role: 3D Artist
+  portrait: Emily_Willingham
+  link: https://emilywillingham.myportfolio.com/
+  link-name: Portfolio
+- name: Shivang Patel
+  role: 3D Artist
+  portrait: Shivang_Patel
+  link: https://www.shivangart.com/
+  link-name: Portfolio
+- name: Vy Lam
+  role: VFX
+  portrait: Vy_Lam
 - name: Ian Percy
   role: Level & Game Designer	
   portrait: Ian_Percy
   link: https://percyi.com
   link-name: Website
 - name: Michael Cabrera
-  role: Narrative	
+  role: Narrative Designer	
   portrait: Michael_Cabrera
   link: https://mac2000079bfe.myportfolio.com/
   link-name: Website
@@ -96,10 +133,15 @@
   role: SFX	
   portrait: Conor_Ellis
 - name: Kem Echezona
-  role: SFX	
+  role: SFX	Lead
   portrait: Kem_Echezona
   link: https://kemechezona.wixsite.com/portfolio
-  link-name: Website
+  link-name: Portfolio
+- name: Kigen Shealy
+  role: SFX
+  portrait: Kigen_Shealy
+  link: https://linktr.ee/kigens
+  link-name: Linktree
 - name: Trever Miller
   role: Voice Actor (Dart)
   portrait: Trevor_Miller
