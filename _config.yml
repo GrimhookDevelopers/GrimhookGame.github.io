@@ -10,13 +10,13 @@ url_favicon: /assets/images/favicon.ico
 url_images: /assets/images
 url_videos: /assets/videos
 url_css: /assets/css
-url_logo_256: /assets/images/banner-256.png
-url_logo_1024: /assets/images/banner-1024.png
-url_logo_2048: /assets/images/banner-2048.png
+url_logo_256: /assets/images/logo.png
+url_logo_1024: /assets/images/Logo-1024.png
+url_logo_2048: /assets/images/Logo-2048.png
 
-demo_link: https://github.com/GrimhookGame/GrimhookGame.github.io/releases/download/0.1.0/Grimhook.zip
-demo_download_windows: https://github.com/GrimhookGame/GrimhookGame.github.io/releases/download/0.1.0/Grimhook.zip
-demo_steam: '#'
+# demo_link: https://github.com/GrimhookGame/GrimhookGame.github.io/releases/download/0.1.0/Grimhook.zip
+# demo_download_windows: https://github.com/GrimhookGame/GrimhookGame.github.io/releases/download/0.1.0/Grimhook.zip
+steam: 'https://store.steampowered.com/app/2667430/Grimhook/'
 
 # build settings
 markdown: kramdown
