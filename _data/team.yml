@@ -7,12 +7,12 @@
 #   link-name:  Display name for link
 
 - name: Tryston Minsquero
-  role: Programmer	
+  role: Programmer
   portrait: Tryston_Minsquero_3
   link: https://trystonminsquero.com
   link-name: Website
 - name: Jared Ellis
-  role: Programmer	
+  role: Programmer
   portrait: Jared_Ellis
   link: https://jaredellis.myportfolio.com/
   link-name: Website
@@ -22,32 +22,32 @@
   link: https://nicolasmaclean.com
   link-name: Website
 - name: Phú Lê
-  role: 3D Artist	
+  role: 3D Artist
   portrait: Phu_Le
   link: https://www.artstation.com/phu-le
   link-name: Art Station
 - name: Ben Cressman
-  role: 3D Artist	
+  role: 3D Artist
   portrait: Benjamin_Cressman
   link: https://artstation.com/bencres
   link-name: Art Station
 - name: Michelle Liu
-  role: 3D Artist	
+  role: 3D Artist
   portrait: Michelle_Liu
   link: https://www.artstation.com/liumichelle1030
   link-name: Art Station
 - name: Michael Benard
-  role: 3D Artist	
+  role: 3D Artist
   portrait: Michael_Benard
   link: https://michaelbenard.artstation.com/
   link-name: Art Station
 - name: Colin Philips
-  role: 3D Artist & Surfacer	
+  role: 3D Artist & Surfacer
   portrait: Phillips_Colin
   link: https://www.artstation.com/cphillips4210
   link-name: Art Station
 - name: Alana Godfredsen
-  role: 3D Artist & Surfacer	
+  role: 3D Artist & Surfacer
   portrait: Alana_Godfredsen
   link: https://www.artstation.com/alana_lynn
   link-name: Art Station
@@ -57,12 +57,12 @@
   link: https://saamiraahmed.wixsite.com/saamir
   link-name: Website
 - name: Ross Quigley
-  role: 2D Artist	
+  role: 2D Artist
   portrait: Ross_Quigley
   link: https://www.artstation.com/rossquigley
   link-name: Art Station
 - name: Aliya Lee
-  role: 2D Artist	
+  role: 2D Artist
   portrait: Aliya_Lee
   link: https://aliyalee.myportfolio.com/
   link-name: Website
@@ -109,20 +109,22 @@
 - name: Vy Lam
   role: VFX
   portrait: Vy_Lam
+  link: https://www.linkedin.com/in/vylamart/
+  link-name: LinkedIn
 - name: Ian Percy
-  role: Level & Game Designer	
+  role: Level & Game Designer
   portrait: Ian_Percy
   link: https://percyi.com
   link-name: Website
 - name: Michael Cabrera
-  role: Narrative Designer	
+  role: Narrative Designer
   portrait: Michael_Cabrera
   link: https://mac2000079bfe.myportfolio.com/
   link-name: Website
 - name: Calvin Steponaitis
-  role: Producer	
+  role: Producer
   portrait: Calvin_Steponaitis
-  link: https://www.linkedin.com/in/calvin-s-6866981bb/ 
+  link: https://www.linkedin.com/in/calvin-s-6866981bb/
   link-name: LinkedIn
 - name: Zach Herr
   role: Composer
@@ -130,7 +132,7 @@
   link: https://www.youtube.com/@Below_Cloud_Nine
   link-name: YouTube
 - name: Conor Ellis
-  role: SFX	
+  role: SFX
   portrait: Conor_Ellis
 - name: Kem Echezona
   role: SFX	Lead
