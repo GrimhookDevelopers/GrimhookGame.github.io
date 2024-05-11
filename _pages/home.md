@@ -7,13 +7,11 @@ exclude-title-in-meta: true
 
 <div id="splash">
     <figure>
-        <video playsinline autoplay muted loop> 
-            <source src="/assets/videos/gameplay-short.mp4" type="video/mp4">
-            <source src="/assets/videos/gameplay-short.webm" type="video/webm">
-        </video>
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lWm96D7bJho?si=-rIRtxKxBWsQz7pk&amp;controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!-- <iframe height=100% width=100% src="https://www.youtube.com/embed/lWm96D7bJho?autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe> -->
     </figure>
     <div id="download" class="ignore-auto-responsiveness">
-        <img src="{{ site.url_logo_1024 }}" id="download-banner" alt="Grimhook Logo">
+        <img src="{{ site.url_logo_2048 }}" id="download-banner" alt="Grimhook Logo">
         <!-- <a class="button download windows font-2xl w-fit mx-auto mt-4" download> Demo Coming Soon </a> -->
         <!-- <a class="button download windows font-2xl w-fit mx-auto mt-4 hide-on-not-windows" href="{{site.demo_download_windows}}" download> <i class="fa-brands fa-windows my-auto mr-2"></i> Download The Demo </a> -->
         <a class="button download steam font-2xl w-fit mx-auto mt-4" href="/steam" target="_blank" > <i class="fa-brands fa-steam my-auto mr-2"></i> Steam </a>
