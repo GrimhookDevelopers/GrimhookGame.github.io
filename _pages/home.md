@@ -44,7 +44,7 @@ exclude-title-in-meta: true
 also delete this line-->
 
 <div>
-    <div id="team" class="anchor"></div>
+    <!-- <div id="team" class="anchor"></div> -->
     <h1> About the Team </h1>
     {% include team.html id="team-gallery" %}
 </div>
