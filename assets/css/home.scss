@@ -46,8 +46,7 @@ main > div
 
     #download-banner
     {
-        padding-left: 1.05rem;
-        max-height: 15rem;
+        max-height: 12rem;
         filter: drop-shadow(1px 3px 10px black);
     }
 
@@ -68,6 +67,29 @@ main > div
         // margin-left: rem;
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+}
+
+#about
+{
+    h1
+    {
+        font-size: 1.5rem;
+    }
+    
+    p
+    {
+        font-size: 1.1rem;
+        margin-bottom: .25rem;
+    }
+    
+    @media (min-width: 768px)
+    {
+        img
+        {
+            max-width: 47%;
+            margin-right: 3%;
+        }
     }
 }
 

@@ -9,11 +9,11 @@ nav
     
     a
     {
-        text-decoration: none;
         color: $clr-text-primary;
+        transition: all 0.15s ease-out;
     }
 
-    a.active
+    a:hover
     {
         color: $clr-text-secondary;
     }

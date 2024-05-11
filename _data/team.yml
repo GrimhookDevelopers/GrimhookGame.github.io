@@ -16,16 +16,26 @@
   portrait: Jared_Ellis
   link: https://jaredellis.myportfolio.com/
   link-name: Website
-- name: Nick Maclean
-  role: Webmaster
-  portrait: Nick_Maclean
-  link: https://nicolasmaclean.com
+- name: Ian Percy
+  role: Level & Game Designer
+  portrait: Ian_Percy
+  link: https://percyi.com
   link-name: Website
 - name: Phú Lê
   role: 3D Artist
   portrait: Phu_Le
   link: https://www.artstation.com/phu-le
   link-name: Art Station
+- name: Calvin Steponaitis
+  role: Producer
+  portrait: Calvin_Steponaitis
+  link: https://www.linkedin.com/in/calvin-s-6866981bb/
+  link-name: LinkedIn
+- name: Nick Maclean
+  role: Webmaster
+  portrait: Nick_Maclean
+  link: https://nicolasmaclean.com
+  link-name: Website
 - name: Ben Cressman
   role: 3D Artist
   portrait: Benjamin_Cressman
@@ -111,21 +121,11 @@
   portrait: Vy_Lam
   link: https://www.linkedin.com/in/vylamart/
   link-name: LinkedIn
-- name: Ian Percy
-  role: Level & Game Designer
-  portrait: Ian_Percy
-  link: https://percyi.com
-  link-name: Website
 - name: Michael Cabrera
   role: Narrative Designer
   portrait: Michael_Cabrera
   link: https://michaelcabrera.myportfolio.com/
   link-name: Website
-- name: Calvin Steponaitis
-  role: Producer
-  portrait: Calvin_Steponaitis
-  link: https://www.linkedin.com/in/calvin-s-6866981bb/
-  link-name: LinkedIn
 - name: Zach Herr
   role: Composer
   portrait: Zack_Herr

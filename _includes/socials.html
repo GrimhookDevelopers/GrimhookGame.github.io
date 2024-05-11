@@ -1,5 +1,5 @@
 <div class="{{include.class}}" id="{{include.id}}">
     {% for social in site.data.socials %}
-        <a href="{{social.url}}" target="_blank" class="{{include.link-class}}"> <i class="{{social.icon}}"></i>  {% unless include.hide-name %}{{ social.name }}{% endunless %} </a>
+        <a href="{{social.url}}" target="_blank" class="{{include.link-class}}"> <i class="{{social.icon}} {{include.icon-class}}"></i>{% unless include.hide-name %}{{ social.name }}{% endunless %}</a>
     {% endfor %}
 </div>

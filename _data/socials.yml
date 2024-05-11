@@ -7,12 +7,12 @@
 - name: Discord
   icon: fa-brands fa-discord
   url: /discord/
+- name: Steam
+  icon: fa-brands fa-steam
+  url: /steam/
 - name: YouTube
   icon: fa-brands fa-youtube
   url: /youtube/
 - name: Twitter
   icon: fa-brands fa-twitter
   url: /twitter/
-- name: TikTok
-  icon: fa-brands fa-tiktok
-  url: /tiktok/

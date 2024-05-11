@@ -1,21 +1,18 @@
-<nav class="flex flex-column lg:flex-row items-center px-6 md:px-8 py-3 md:py-4">
+<nav class="flex flex-row items-center px-6 md:px-8 py-3 md:py-4">
     <div class="flex flex-row items-center lg:mr-auto w-full lg:w-auto">
         <!-- logo -->
         <img src="{{ site.url_logo_256}}" class="mr-auto">
         
         <!-- Burger Navigation (for mobile) -->
-        <button type="button" id="nav-burger" class="hamburger lg:display-none" aria-label="Main Navigation Burger">
+        <!-- <button type="button" id="nav-burger" class="hamburger lg:display-none" aria-label="Main Navigation Burger">
             <span class="hamburger-inner"></span>
-        </button>
+        </button> -->
     </div>
-
+    
     <!-- links -->
-    <div class="links flex flex-column lg:flex-row w-full lg:w-auto overflow-hidden stateful" for="nav-burger" speed="450" style="max-height: 0px;">
-        <div class="mt-4"></div>
-        {% assign i = 0 %}
-        {% for item in site.data.navigation %}
-            <a class="w-full h-full py-2 lg:mx-3 lg:px-1 lg:py-1 font-2xl lg:font-lg font-bold auto-close" href="{{ item.url }}"> {{ item.name }} </a>
-            {% assign i = i | plus: 1 %}
-        {% endfor %}
+    <!-- <div class="links flex flex-column lg:flex-row w-full lg:w-auto overflow-hidden stateful" for="nav-burger" speed="450" style="max-height: 0px;"> -->
+    <div class="links w-full text-right">
+        <!-- <div class="mt-4"></div> -->
+        {% include socials.html hide-name=true class="footer-socials font-2xl w-full" link-class="footer-social no-underline ml-2" %}
     </div>
 </nav>

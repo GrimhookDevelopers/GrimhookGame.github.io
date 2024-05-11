@@ -16,35 +16,44 @@ exclude-title-in-meta: true
         <img src="{{ site.url_logo_square }}" id="download-banner" alt="Grimhook Logo">
         <!-- <a class="button download windows font-2xl w-fit mx-auto mt-4" download> Demo Coming Soon </a> -->
         <!-- <a class="button download windows font-2xl w-fit mx-auto mt-4 hide-on-not-windows" href="{{site.demo_download_windows}}" download> <i class="fa-brands fa-windows my-auto mr-2"></i> Download The Demo </a> -->
-        <a class="button download steam font-2xl w-fit mx-auto mt-4" href="/steam" target="_blank" > <i class="fa-brands fa-steam my-auto mr-2"></i>Steam</a>
+        <a class="button download steam font-2xl w-fit mx-auto mt-4" href="/steam" target="_blank" > <i class="fa-brands fa-steam my-auto mr-2"></i><b>Play for Free!</b></a>
     </div>
 </div>
 
-<div>
-    <!-- <div id="about" class="anchor"></div>
-    <h1> About the Project </h1>
-    <p>
-        Look, just because I don't be givin' no man a foot massage don't make it right for Marsellus to throw Antwone into a glass motherfuckin' house, fuckin' up the way the nigger talks. Motherfucker do that shit to me, he better paralyze my ass, 'cause I'll kill the motherfucker, know what I'm sayin'?
-    </p>
-    <p>
-        My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?
-    </p>
-    <p>
-        The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.
-    </p> -->
+<!-- delete this line @ian
+<div id="about">
+    <div class="flex flex-column md:flex-row mb-10">
+        <img src="https://images.squarespace-cdn.com/content/v1/606d4bb793879d12d807d4c8/1617943241416-WVIDZ5G6CQKP6YS7122Y/website_mini_0000_mini3.jpg" alt="Grimhook Logo">
+        <div>
+            <h1> Captured and Taken to a Distant Land </h1>
+            <p> Hornet, princess-protector of Hallownest, finds herself alone in a vast, unfamiliar world. </p>
+            <p> She must battle foes, seek out allies, and solve mysteries as she ascends on a deadly pilgrimage to the kingdom’s peak. </p>
+            <p> Bound by her lineage and guided by echoes of her past, Hornet will adventure through mossy grottos, coral forests and shining citadels to unravel a deadly thread that threatens this strange new land. </p>
+        </div>
+    </div>
+    <div class="flex flex-column-reverse md:flex-row">
+        <div>
+            <h1> Captured and Taken to a Distant Land </h1>
+            <p> Hornet, princess-protector of Hallownest, finds herself alone in a vast, unfamiliar world. </p>
+            <p> She must battle foes, seek out allies, and solve mysteries as she ascends on a deadly pilgrimage to the kingdom’s peak. </p>
+            <p> Bound by her lineage and guided by echoes of her past, Hornet will adventure through mossy grottos, coral forests and shining citadels to unravel a deadly thread that threatens this strange new land. </p>
+        </div>
+        <img src="https://images.squarespace-cdn.com/content/v1/606d4bb793879d12d807d4c8/1617943241416-WVIDZ5G6CQKP6YS7122Y/website_mini_0000_mini3.jpg" alt="Grimhook Logo" class="my-auto">
+    </div>
 </div>
+also delete this line-->
 
 <div>
-    <div id="team" class="anchor"></div>
+    <!-- <div id="team" class="anchor"></div> -->
     <h1> About the Team </h1>
     {% include team.html id="team-gallery" %}
 </div>
 
 <div>
-    <div id="community" class="anchor"></div>
+    <!-- <div id="community" class="anchor"></div> -->
     <h1> Join the Community! </h1>
     <div class="flex flex-column md:flex-row my-12 justify-content-center">
-        {% include socials.html id="community-socials" class="md:w-2/5 md:mr-6" link-class="button" %}
+        {% include socials.html id="community-socials" class="md:w-2/5 md:mr-6" link-class="button" icon-class="mr-1" %}
         <p class="md:w-2/5 pt-4 md:pt-0">
             Follow our socials and join our <a href="/discord" target="_blank"> Discord</a> to talk directly to devs and other fans. You'll also be the first notified about pre-release access to the game and receive sneak peeks!
         </p>
