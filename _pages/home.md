@@ -7,14 +7,16 @@ exclude-title-in-meta: true
 
 <div id="splash">
     <figure>
-    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lWm96D7bJho?si=-rIRtxKxBWsQz7pk&amp;controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <!-- <iframe height=100% width=100% src="https://www.youtube.com/embed/lWm96D7bJho?autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe> -->
+        <video playsinline autoplay muted loop> 
+            <source src="{{site.url_trailer_mp4}}" type="video/mp4">
+            <source src="{{site.url_trailer_webm}}" type="video/webm">
+        </video>
     </figure>
     <div id="download" class="ignore-auto-responsiveness">
-        <img src="{{ site.url_logo_2048 }}" id="download-banner" alt="Grimhook Logo">
+        <img src="{{ site.url_logo_square }}" id="download-banner" alt="Grimhook Logo">
         <!-- <a class="button download windows font-2xl w-fit mx-auto mt-4" download> Demo Coming Soon </a> -->
         <!-- <a class="button download windows font-2xl w-fit mx-auto mt-4 hide-on-not-windows" href="{{site.demo_download_windows}}" download> <i class="fa-brands fa-windows my-auto mr-2"></i> Download The Demo </a> -->
-        <a class="button download steam font-2xl w-fit mx-auto mt-4" href="/steam" target="_blank" > <i class="fa-brands fa-steam my-auto mr-2"></i> Steam </a>
+        <a class="button download steam font-2xl w-fit mx-auto mt-4" href="/steam" target="_blank" > <i class="fa-brands fa-steam my-auto mr-2"></i>Steam</a>
     </div>
 </div>
 
@@ -29,8 +31,8 @@ exclude-title-in-meta: true
     </p>
     <p>
         The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.
-    </p>
-</div> -->
+    </p> -->
+</div>
 
 <div>
     <div id="team" class="anchor"></div>
