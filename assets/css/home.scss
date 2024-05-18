@@ -33,6 +33,10 @@ main > div
     }
 }
 
+.accent {
+    color: $clr-text-secondary
+}
+
 #download
 {
     position: absolute;
@@ -82,13 +86,18 @@ main > div
         font-size: 1.1rem;
         margin-bottom: .25rem;
     }
+
+    // div, img
+    // {
+    //     align-items;
+    // }
     
     @media (min-width: 768px)
     {
         img
         {
             max-width: 47%;
-            margin-right: 3%;
+            // margin-right: 3%;
         }
     }
 }
@@ -111,6 +120,10 @@ main > div
     {
         margin-bottom: 4rem;
     }
+}
+
+.about-text {
+    align-content: center;
 }
 
 // offset anchor div to be under the navbar
