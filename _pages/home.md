@@ -20,13 +20,13 @@ exclude-title-in-meta: true
     </div>
 </div>
 
-<h1 class="accent">About The Game</h1>
+<h1 class="title">About The Game</h1>
 
 <div id="about">
-    <div class="flex flex-column md:flex-row mb-10" style="column-gap:3.7rem">
+    <div class="flex flex-column md:flex-row mb-10 mt-10" style="column-gap:3.7rem">
         <img src="{{ site.url_images }}/gameplay/gem.png" alt="Grimhook Logo">
         <div class="about-text">
-            <h1 class="accent"> Embark on a harrowing journey </h1>
+            <h1 class="accent"> Embark on a Harrowing Journey </h1>
             <p> Grimhook thrusts you into the heart of a flooded wasteland where robotic minions reign supreme and an ancient deity lies dormant beneath the city's surface. As Dart, you'll harness powerful abilities to navigate through cavernous depths, engage in combat against foes, and discover a beautifully grim world and a somber narrative. 
             </p>
         </div>
@@ -34,7 +34,7 @@ exclude-title-in-meta: true
     <div class="flex flex-column-reverse md:flex-row" style="column-gap:3rem">
         <div class="about-text">
             <h1 class="accent"> Intense Platforming and Aerial Combat </h1>
-            <p> Use your lovecraftian abilities to navigate the caverns below Miletos.Time and combine your powers to traverse the terrain and outmaneuver your enemies. Grapple, bounce, dash, and slash your way through relentless automata in multiple combat arenas, utilizing your powers to dodge bullets and decimate robotic foes.</p>
+            <p> Use your lovecraftian abilities to navigate the caverns below Miletos. Time and combine your powers to traverse the terrain and outmaneuver your enemies. Grapple, bounce, dash, and slash your way through relentless automata in multiple combat arenas, utilizing your powers to dodge bullets and decimate robotic foes.</p>
         </div>
         <img src="{{ site.url_images }}/gameplay/mines.png" alt="Grimhook Logo" class="my-auto">
     </div>
@@ -42,13 +42,13 @@ exclude-title-in-meta: true
 
 <div>
     <!-- <div id="team" class="anchor"></div> -->
-    <h1 class="accent"> About the Team </h1>
+    <h1 class="title"> About the Team </h1>
     {% include team.html id="team-gallery" %}
 </div>
 
 <div>
     <!-- <div id="community" class="anchor"></div> -->
-    <h1 class="accent"> Join the Community! </h1>
+    <h1 class="title"> Join the Community! </h1>
     <div class="flex flex-column md:flex-row my-12 justify-content-center">
         {% include socials.html id="community-socials" class="md:w-2/5 md:mr-6" link-class="button" icon-class="mr-1" %}
         <p class="md:w-2/5 pt-4 md:pt-0">
