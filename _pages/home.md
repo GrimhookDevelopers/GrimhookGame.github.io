@@ -20,7 +20,7 @@ exclude-title-in-meta: true
     </div>
 </div>
 
-<h1 class="title">About The Game</h1>
+<h1 class="title">About the Game</h1>
 
 <div id="about">
     <div class="flex flex-column md:flex-row mb-10 mt-10" style="column-gap:3.7rem">
